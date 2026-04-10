@@ -1,0 +1,24 @@
+{
+  "appId": "com.recorder.screenwebcam",
+  "productName": "Screen & Webcam Recorder",
+  "directories": {
+    "output": "release"
+  },
+  "files": [
+    "dist/**/*",
+    "dist-electron/**/*",
+    "node_modules/**/*"
+  ],
+  "linux": {
+    "target": "AppImage",
+    "category": "AudioVideo"
+  },
+  "mac": {
+    "target": "dmg",
+    "entitlements": "build/entitlements.mac.plist",
+    "entitlementsInherit": "build/entitlements.mac.plist"
+  },
+  "win": {
+    "target": "nsis"
+  }
+}
