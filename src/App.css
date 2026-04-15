@@ -1,0 +1,7 @@
+/* App-level layout */
+.main-view {
+  display: grid;
+  grid-template-rows: 1fr auto;
+  height: 100%;
+  overflow: hidden;
+}
